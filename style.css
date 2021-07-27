@@ -1,2 +1,8 @@
 /*Developer: Vanessa Bussie
   Project: GitHub Final Project*/
+  body {
+   background-image: url("dna.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #cccccc;
+  }
