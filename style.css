@@ -1,8 +1,129 @@
 /*Developer: Vanessa Bussie
   Project: GitHub Final Project*/
-  body {
-   background-image: url("dna.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-color: #cccccc;
-  }
+body {
+  background-image: url("dna.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+header{
+  padding-top: 25px;
+}
+
+.clearfix{
+  margin-left: 25px;
+  margin-top: 50px;
+  padding-bottom: 45px;
+}
+
+#nameplate{
+  width: 600px;
+  height: 250px;
+  margin-bottom: 25px;
+}
+
+#portrait{
+  margin-left: 25px;
+  margin-top: 25px;
+  width: auto;
+  height: 250px;
+}
+
+#selfie{
+  max-width: 100%;
+  height:300px;
+}
+
+.contact{
+  font-size: 1em;
+  width: 75%;
+  font-weight: bold;
+}
+
+.wrapper{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: space-around;
+  background-color: #001a1a;
+}
+
+fieldset{
+  border: 0;
+}
+
+.columns{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columns img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #003333;
+}
+
+
+fieldset{
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;}
+.nav{
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+    border:1px solid #ccc;
+    border-width:3px 0;
+    list-style:none;
+    margin:0;
+    padding:1px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;}
+
+.nav li{
+    display:inline;
+    text-decoration: none;}
+
+.nav a {
+    display:inline-block;
+    text-decoration: none;
+    padding:5px;
+    color: white;}
+
+.nav a:hover {
+  display:inline-block;
+  text-decoration: none;
+  background-color: gray;
+  color: blue;
+}
+
+@media only screen and (max-width: 568px)
+{
+  .nav {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+  .nav li a {
+    display: block;
+    padding: 15px 5px;
+    align-items: center;}
+
+  footer{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    font-family: "Bungee", cursive;}
+
+    #selfie{
+      align-items: center;
+    }
+}
