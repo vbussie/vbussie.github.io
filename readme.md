@@ -1,3 +1,3 @@
 
 # Vanessa Bussie
-## GitHub Final Project
+## My Online Portfolio
